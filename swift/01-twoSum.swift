@@ -41,5 +41,5 @@ let target = 11
 
 let solution = Solution()
 let indexes = solution.twoSum(numbers, 20)
-let result = indexes.count == 2 ? "Indexes are: [indexes]" : "Target not found!"
+let result = indexes.count == 2 ? "Indexes are: \(indexes)" : "Target not found!"
 print( result )
